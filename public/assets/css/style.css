@@ -1,0 +1,132 @@
+/* styling body */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background untuk navbar */
+.bg-navbar {
+    background-color: #3A3232;
+}
+
+/* styling untuk logo di navbar */
+.img-logo {
+    width: 50px;
+}
+
+/* styling untuk konten image di desktop 1 */
+.img-content {
+    object-fit: cover;
+    /* Do not scale the image */
+    object-position: center;
+    /* Center the image within the element */
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+}
+
+/* styling untuk footer */
+.input-footer {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    background-color: #3A3232;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+/* styling untuk input pesan di footer */
+.textarea-footer {
+    width: 150px;
+}
+
+/* styling box oranye di desktop 2 */
+.box1 {
+    background-color: #F19823;
+    width: 690px;
+    padding: 80px 50px 100px 50px;
+    margin: 0px auto;
+    transform: translate(0px, -60px);
+    border-radius: 20px;
+}
+
+/* styling judul dalam box oranye desktop 2 */
+.judul {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* styling konten teks justify pada dekstop 2 */
+.konten {
+    text-align: justify;
+}
+
+/* setting box agar berwarna oranye */
+.bg-orange {
+    z-index: -1;
+    background-color: #F19823;
+}
+
+/* styling untuk teks pada form di desktop 2 */
+.text-form {
+    font-size: 25px;
+}
+
+/* styling box form pada desktop 3 */
+.box-form {
+    padding: 40px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 40px;
+    width: 500px;
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    transform: translateY(-120px);
+}
+
+/* styling input form di footer */
+.input-form {
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+/* styling footer  */
+.textarea-footer {
+    width: 150px;
+}
+
+/* styling untuk mengisi ruang kosong di desktop 3 */
+.filler {
+    height: 350px;
+}
+
+/* styling input form di desktop 3 */
+.input-form-top {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+/* styling textarea desktop 3  */
+.textarea-form {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-form {
+    margin: 0px auto;
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.highlight-user:hover {
+    background-color: #747474;
+    cursor: pointer;
+}
