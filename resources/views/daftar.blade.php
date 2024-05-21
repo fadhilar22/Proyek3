@@ -27,6 +27,7 @@
     </nav>
     <!-- konten gambar utama (dibawah navbar) -->
     <div style="background-image: url('./assets/img/bg-login-signup.png'); padding: 50px;">
+<<<<<<< HEAD
         @if (session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}
@@ -40,6 +41,9 @@
         @endif
         <form name="form" method="POST" action="{{ route('register') }}">
             @csrf
+=======
+        <form name="form" method="POST" action="">
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
             <div class="card card-form py-3">
                 <div class="row">
                     <div class="col text-center">
@@ -68,9 +72,13 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col ms-5 fw-bold">
+<<<<<<< HEAD
                         <input type="email" name="email"
                             style="width: 90%; border: none; border-bottom: 2px solid black; background: none;"
                             required>
+=======
+                        <input type="email" name="email" style="width: 90%; border: none; border-bottom: 2px solid black; background: none;" required>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
                     </div>
                 </div>
                 <div class="row mt-2">
@@ -80,9 +88,13 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col ms-5 fw-bold">
+<<<<<<< HEAD
                         <input type="text" name="nama"
                             style="width: 90%; border: none; border-bottom: 2px solid black; background: none;"
                             required>
+=======
+                        <input type="text" name="nama" style="width: 90%; border: none; border-bottom: 2px solid black; background: none;" required>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
                     </div>
                 </div>
                 <div class="row mt-2">
@@ -92,9 +104,13 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col ms-5 fw-bold">
+<<<<<<< HEAD
                         <input type="text" name="nohp"
                             style="width: 90%; border: none; border-bottom: 2px solid black; background: none;"
                             required>
+=======
+                        <input type="text" name="nohp" style="width: 90%; border: none; border-bottom: 2px solid black; background: none;" required>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
                     </div>
                 </div>
                 <div class="row mt-2">
@@ -114,9 +130,13 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col ms-5 fw-bold">
+<<<<<<< HEAD
                         <input type="text" name="username"
                             style="width: 90%; border: none; border-bottom: 2px solid black; background: none;"
                             required>
+=======
+                        <input type="text" name="username" style="width: 90%; border: none; border-bottom: 2px solid black; background: none;" required>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -126,9 +146,13 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col ms-5 fw-bold">
+<<<<<<< HEAD
                         <input type="password" name="password"
                             style="width: 90%; border: none; border-bottom: 2px solid black; background: none;"
                             required>
+=======
+                        <input type="password" name="password" style="width: 90%; border: none; border-bottom: 2px solid black; background: none;" required>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -138,21 +162,33 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col ms-5 fw-bold">
+<<<<<<< HEAD
                         <input type="password" name="password_confirmation"
                             style="width: 90%; border: none; border-bottom: 2px solid black; background: none;"
                             required>
+=======
+                        <input type="password" name="password_confirm" style="width: 90%; border: none; border-bottom: 2px solid black; background: none;" required>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
                     </div>
                 </div>
                 <div class="row mt-2">
                     <div class="col mx-5 fw-bold">
+<<<<<<< HEAD
                         <button type="submit" class="btn btn-primary w-100"
                             style="background-color: #1EAAD6; border-radius: 20px;">Daftar</button>
+=======
+                        <button type="submit" class="btn btn-primary w-100" style="background-color: #1EAAD6; border-radius: 20px;">Daftar</button>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
                     </div>
                 </div>
                 <div class="row mt-4">
                     <div class="col mx-5 text-center fs-6">
+<<<<<<< HEAD
                         <div>Dengan mendaftar, kamu setuju dengan <a href="#" class="text-dark">syarat dan
                                 ketentuan</a> Semari.com</div>
+=======
+                        <div>Dengan mendaftar, kamu setuju dengan <a href="#" class="text-dark">syarat dan ketentuan</a> Semari.com</div>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
                     </div>
                 </div>
 
@@ -162,4 +198,8 @@
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407

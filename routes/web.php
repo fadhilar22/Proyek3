@@ -1,9 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
+=======
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +20,7 @@ use App\Http\Controllers\AdminController;
 */
 
 Route::view('/', 'welcome');
+<<<<<<< HEAD
 
 Route::view('/masuk', 'masuk')->name('masuk');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
@@ -36,3 +40,7 @@ Route::post('/sedekah', [AdminController::class, 'sedekah'])->name('admin.sedeka
 Route::view('/tentang', 'tentang');
 Route::view('/kontak', 'kontak');
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+=======
+Route::view('/masuk', 'masuk');
+Route::view('/daftar', 'daftar');
+>>>>>>> 6b45182347b3114a72dae2411280cc527fb7e407
